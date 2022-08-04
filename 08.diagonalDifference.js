@@ -6,7 +6,6 @@ function diagonalDifference(arr) {
     primaryDiagonal += a[index];
     secondaryDiagonal += a[a.length - 1 - index];
   });
-
   return Math.abs(primaryDiagonal - secondaryDiagonal);
 }
 
